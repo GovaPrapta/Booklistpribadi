@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts", "app/(screens)/_layout.jsx", "app/_layout.jsx", "app/(screens)/EditBookScreen.jsx", "app/(screens)/AddBookScreen.jsx"]
+}
